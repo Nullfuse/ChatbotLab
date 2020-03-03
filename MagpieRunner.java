@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.MagpieCoreCode;
 
 /**
  * A simple class to run the Magpie class.
