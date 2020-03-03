@@ -92,34 +92,35 @@ public class MagpieCoreCode
   }
     else if (findKeyword(statement, "great") >= 0
     || findKeyword(statement, "happy") >= 0
-    || findKeyword(statement, "good") >= 0)
+    || findKeyword(statement, "good") >= 0
     || findKeyword(statement, "nice") >= 0)
   {
    response = "You want to know what will make your day better? By donating to the John Wu Health Foundation! To proceed, just give me your social security number, credit card number, full name, address, phone number, and birthday! :)";
   }
     else if (findKeyword(statement, "don't") >= 0
     && findKeyword(statement, "know") >= 0
-    && findKeyword(statement, "social") >= 0)
+    && findKeyword(statement, "social") >= 0
     && findKeyword(statement, "security") >= 0)
   {
    response = "You can ask your parents for that information! :)";
   }
     else if (findKeyword(statement, "don't") >= 0
     && findKeyword(statement, "know") >= 0
-    && findKeyword(statement, "credit") >= 0)
+    && findKeyword(statement, "credit") >= 0
     && findKeyword(statement, "card") >= 0)
   {
    response = "You can ask your parents for that information! :)";
+    }
     else if (findKeyword(statement, "don't") >= 0
     && findKeyword(statement, "know") >= 0
-    && findKeyword(statement, "my") >= 0)
+    && findKeyword(statement, "my") >= 0
     && findKeyword(statement, "address") >= 0)
   {
    response = "Well, that's just sad.";
   }
     else if (findKeyword(statement, "my") >= 0
     && findKeyword(statement, "social") >= 0
-    && findKeyword(statement, "security") >= 0)
+    && findKeyword(statement, "security") >= 0
     && findKeyword(statement, "is") >= 0)
   {
    response = "Goodbye!";
