@@ -125,6 +125,27 @@ public class MagpieCoreCode
   {
    response = "Goodbye!";
   }
+    else if (findKeyword(statement, "Hello") >= 0
+    || findKeyword(statement, "Hi") >= 0
+    || findKeyword(statement, "Yo") >= 0
+    || findKeyword(statement, "Hola") >= 0)
+  {
+   response = "Hi!";
+  }
+    else if (findKeyword(statement, "Bye") >= 0
+    || findKeyword(statement, "Cya") >= 0
+    || findKeyword(statement, "Leaving") >= 0
+    || findKeyword(statement, "go") >= 0)
+  {
+   response = "Goodbye!";
+  }
+    else if (findKeyword(statement, "Ok") >= 0
+    || findKeyword(statement, "Okay") >= 0
+    || findKeyword(statement, "k") >= 0
+    || findKeyword(statement, "kk") >= 0)
+  {
+   response = "Okay";
+  }
   else
   {
 
