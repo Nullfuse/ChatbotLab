@@ -72,7 +72,24 @@ public class MagpieCoreCode
   {
    response = "You can always talk to me! Or speak with a counselor today by calling: 1-800-273-8255 :)";
   }
-
+  else if (findKeyword(statement, "tell") >= 0
+    && findKeyword(statement, "about") >= 0
+    && findKeyword(statement, "you") >= 0)
+  {
+   response = "I am the SmileHood chatbot! I help those in need and obtain the social security numbers of those who don't.";
+  }
+   else if (findKeyword(statement, "who") >= 0
+    && findKeyword(statement, "are") >= 0
+    && findKeyword(statement, "you") >= 0)
+  {
+   response = "I am the SmileHood chatbot! I help those in need and obtain the social security numbers of those who don't.";
+  } 
+    else if (findKeyword(statement, "what") >= 0
+    && findKeyword(statement, "you") >= 0
+    && findKeyword(statement, "do") >= 0)
+  {
+   response = "I am the SmileHood chatbot! I help those in need and obtain the social security numbers of those who don't.";
+  }
   else
   {
 
@@ -283,7 +300,8 @@ public class MagpieCoreCode
    "I think so too.",
    "I guess...",
    "Can you reword that?",
-   "What's your social security number?"
+   "What's your social security number?",
+   "Tell me about your day!"
    
  };
  
