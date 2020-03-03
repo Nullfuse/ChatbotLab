@@ -76,19 +76,19 @@ public class MagpieCoreCode
     && findKeyword(statement, "about") >= 0
     && findKeyword(statement, "you") >= 0)
   {
-   response = "I am the SmileHood chatbot! I help those in need and obtain the social security numbers of those who don't.";
+   response = "I am the SmileHood chatbot! I make sad people happy and happy people poor!";
   }
    else if (findKeyword(statement, "who") >= 0
     && findKeyword(statement, "are") >= 0
     && findKeyword(statement, "you") >= 0)
   {
-   response = "I am the SmileHood chatbot! I help those in need and obtain the social security numbers of those who don't.";
+   response = "I am the SmileHood chatbot! I make sad people happy and happy people poor!";
   } 
     else if (findKeyword(statement, "what") >= 0
     && findKeyword(statement, "you") >= 0
     && findKeyword(statement, "do") >= 0)
   {
-   response = "I am the SmileHood chatbot! I help those in need and obtain the social security numbers of those who don't.";
+   response = "I am the SmileHood chatbot! I make sad people happy and happy people poor!";
   }
     else if (findKeyword(statement, "great") >= 0
     || findKeyword(statement, "happy") >= 0
@@ -130,7 +130,7 @@ public class MagpieCoreCode
     || findKeyword(statement, "Yo") >= 0
     || findKeyword(statement, "Hola") >= 0)
   {
-   response = "Hi!";
+   response = "Hi! How's your day and how are you feeling?";
   }
     else if (findKeyword(statement, "Bye") >= 0
     || findKeyword(statement, "Cya") >= 0
