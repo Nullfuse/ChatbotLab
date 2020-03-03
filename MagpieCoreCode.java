@@ -100,6 +100,7 @@ public class MagpieCoreCode
     else if (findKeyword(statement, "don't") >= 0
     && findKeyword(statement, "know") >= 0
     && findKeyword(statement, "social") >= 0
+    && findKeyword(statement, "dont") >= 0
     && findKeyword(statement, "security") >= 0)
   {
    response = "You can ask your parents for that information! :)";
